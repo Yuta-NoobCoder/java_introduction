@@ -3,20 +3,15 @@ public class Sum
     public float sum(int x, int y) {
         Add add = new Add();
         Sub sub = new Sub();
-        int sum = 0; //合計値
-
-        if(x > y)
-        {
-            //値を入れ替え
-            int tmp = y;
-            y = x;
-            x = tmp;
-        }
-            
-        for(int i=x; i<=y; i = add.add(i, 1)) // i++ の代わりにAdd.addメソッドを使用
-        {
-            sum = add.add(sum, i);
-        }
-        return sum;
+        Mul mul = new Mul();
+        Div div = new Div();
+        int n; //数列の長さ
+        
+        if(x <= y) 
+            n = add.add(sub.sub(y ,x), 1); // n = y - x + 1
+        else 
+            n = add.add(sub.sub(x ,y), 1); // n = x - y + 1
+        
+        return div.div(mul.mul(n, add.add(x, y)), 2); // 数列の和 Sn = n(x + y) / 2
     }
 }
