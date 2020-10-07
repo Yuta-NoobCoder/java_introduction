@@ -1,3 +1,7 @@
+// 卯木 優大
+// u316025
+//課題1 (3) Ave
+
 public class Ave
 {
     public float ave(int x, int y) {

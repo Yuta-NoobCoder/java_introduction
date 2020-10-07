@@ -1,3 +1,7 @@
+// 卯木 優大
+// u316025
+//課題1 (3) Calc
+
 public class Calc 
 {
     public static void main(String args[]) 

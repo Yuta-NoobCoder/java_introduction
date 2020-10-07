@@ -1,3 +1,7 @@
+// 卯木 優大
+// u316025
+//課題1 (3) Sum
+
 public class Sum
 {
     public float sum(int x, int y) {
