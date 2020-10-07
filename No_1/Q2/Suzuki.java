@@ -1,3 +1,7 @@
+// 卯木 優大
+// u316025
+//課題1 (2) Suzuki
+
 public class Suzuki 
 {
     public static void main(String args[]) 
