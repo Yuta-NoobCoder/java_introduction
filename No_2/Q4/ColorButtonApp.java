@@ -1,9 +1,9 @@
-import java.awt.Frame;
-import java.awt.Panel;
 // 卯木 優大
 // 316025 
 // 課題2 (4) ColorButtonApp
 
+import java.awt.Frame;
+import java.awt.Panel;
 import java.awt.Button;
 import java.awt.Color;
 
