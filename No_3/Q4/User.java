@@ -20,7 +20,7 @@ public class User
         v1.show();
 
         product = v1.product(v2); //内積
-        v1.show();
+        System.out.println( v1.name + "と" + v2.name + "の内積は" + product + "です");
 
         Vector v3 = new Vector();
         v3.name = "v3";
