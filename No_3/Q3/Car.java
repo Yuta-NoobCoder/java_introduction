@@ -18,9 +18,20 @@ public class Car
         gas += amount;
     }
 
-    public void drive(double distance)
+    public int drive(double distance)
     {
-        gas -= distance / 15.0; //1Lで15km走行可能
-        kyori += distance;
+        //ガソリン不足
+        if (distance > gas * 15.0)
+        {
+            kyori += gas * 15.0; //残ガソリンで走り切れる距離
+            gas = 0.0;
+            return -1;
+        }
+        else
+        {
+            kyori += distance;
+            gas -= distance / 15.0; //1Lで15km走行可能
+            return 0;
+        }
     }
 }
