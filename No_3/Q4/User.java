@@ -20,8 +20,12 @@ public class User
         v1.show();
 
         product = v1.product(v2); //内積
+<<<<<<< HEAD
         System.out.println(v1.name + "と" + v2.name + "の内積は" + product + "です");
         v1.show();
+=======
+        System.out.println( v1.name + "と" + v2.name + "の内積は" + product + "です");
+>>>>>>> d28439f52458410c36c138686f35e212c101a858
 
         Vector v3 = new Vector();
         v3.name = "v3";
