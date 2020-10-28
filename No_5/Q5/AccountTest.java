@@ -43,7 +43,7 @@ public class AccountTest
         else System.out.println("戻り値が" + result + "で誤りです");
 
         result = myBank.showBalance();
-        if(result == 10000) System.out.println("残高5000円で正常です");
+        if(result == 5000) System.out.println("残高5000円で正常です");
         else System.out.println("残高が" + result + "で誤りです");
     }
 }
